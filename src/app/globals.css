@@ -6,7 +6,7 @@
   --gray: #cac8c6;
   --white: #ffffff;
   --tan: #f2e5bf;
-  --red: #D53D32;
+  --red: #d53d32;
   --lightGray: #aab9c5;
 }
 
@@ -138,10 +138,12 @@ textarea:focus {
 
   h1 {
     font-size: 7.2rem;
+    letter-spacing: -2.5px;
   }
 
   h2 {
     font-size: 5.6rem;
+    letter-spacing: -1.5px;
   }
 
   p {

@@ -7,7 +7,7 @@ export async function Nav() {
   console.log(menu);
 
   return (
-    <header className={styles.container}>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.left}>
           <Logo />

@@ -1,5 +1,13 @@
-.container {
-  padding: 2rem;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 100%;
+  background-color: var(--white);
 }
 
 .nav {
@@ -7,4 +15,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 5rem;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 6.3rem 7.8rem;
+  padding-bottom: 0rem;
 }
