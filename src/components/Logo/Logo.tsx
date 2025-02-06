@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import styles from './Logo.module.css'
 
 export default function Logo() {
-  return <div className={styles.logo}>thundertrails</div>;
+  return <Link href='/' className={styles.logo}>thundertrails</Link>;
 }
