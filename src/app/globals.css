@@ -54,21 +54,26 @@ span {
 }
 
 h1 {
-  font-size: 10.4rem;
-  line-height: 1.2em;
-  font-weight: 600;
+  font-size: 12.8rem;
+  line-height: 80%;
+  font-weight: 800;
+  letter-spacing: -4px;
+  font-family: var(--barlowCondensed);
 }
 
 h2 {
-  font-size: 7rem;
-  font-weight: 600;
-  line-height: 1.2em;
+  font-size: 9.6rem;
+  font-weight: 800;
+  line-height: 85%;
+  font-family: var(--barlowCondensed);
 }
 
 h3 {
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.5px;
   font-size: 2.4rem;
-  line-height: 120%;
+  line-height: 105%;
+  font-family: var(--barlowSemiCondensed);
 }
 
 h4 {
@@ -132,11 +137,11 @@ textarea:focus {
   }
 
   h1 {
-    font-size: 4.8rem;
+    font-size: 7.2rem;
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 5.6rem;
   }
 
   p {
