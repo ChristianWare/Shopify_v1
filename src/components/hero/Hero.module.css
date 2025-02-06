@@ -4,6 +4,14 @@
   height: 100%;
 }
 
+.content {
+  background-image: url("/images/hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .img {
   object-fit: cover;
   overflow-clip-margin: content-box;
@@ -28,7 +36,7 @@
 
 .contentChildren {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
   padding: 2rem;
   z-index: 3;
   height: 100%;
@@ -58,4 +66,15 @@
   font-size: 2.4rem;
   letter-spacing: -0.5px;
   line-height: 105%;
+}
+
+.right {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1068px) {
+  .right {
+    display: none;
+  }
 }
